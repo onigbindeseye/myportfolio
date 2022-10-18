@@ -41,7 +41,7 @@ const Banner = () => {
           fontWeight={700}
           paddingBottom={'1%'}
         >
-          Oluseye Onigbinde.
+          Oluseye Oluwatosin Onigbinde.
         </Typography>
         <Typography
           color={'#B7B7B7'}

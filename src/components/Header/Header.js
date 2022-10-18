@@ -10,6 +10,7 @@ import Fade from '@mui/material/Fade';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import { Link } from '@mui/material';
+import logo from 'images/logo.png';
 
 const Header = () => {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -54,7 +55,7 @@ const Header = () => {
         width={230}
       >
         <Box component="a" underline="none" href="/" title="Oluseye">
-          <img src={''} alt="logo" width={'60%'} />
+          <img src={logo} alt="logo" width={'100%'} />
         </Box>
       </Box>
       <Box
@@ -123,7 +124,7 @@ const Header = () => {
             position="fixed"
             zIndex={theme.zIndex.drawer + 1}
             sx={{
-              backgroundColor: theme.palette.background.paper,
+              backgroundColor: '#0D3446',
             }}
           >
             <Toolbar>
@@ -139,14 +140,14 @@ const Header = () => {
               >
                 <Box
                   component="img"
-                  height={'7vh'}
+                  height={'5vh'}
                   sx={{
                     display: 'block',
                     position: 'relative',
                     overflow: 'hidden',
                     width: '100%',
                   }}
-                  src={''}
+                  src={logo}
                   alt={'logo'}
                 />
               </Box>
@@ -158,7 +159,7 @@ const Header = () => {
                 aria-haspopup="true"
                 onClick={handleClick}
               >
-                <MenuIcon fontSize="large" sx={{ color: '#43D8C9' }} />
+                <MenuIcon fontSize="large" sx={{ color: '#248888' }} />
               </IconButton>
             </Toolbar>
           </AppBar>

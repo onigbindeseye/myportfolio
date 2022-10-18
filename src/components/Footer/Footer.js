@@ -19,7 +19,7 @@ const Footer = () => {
         >
           <Box width={{xs:'100%', sm:'80%'}}>
             <Typography align={'center'} variant={'subtitle2'} color="#fff">
-            Desgined & Built by Onigbinde Oluseye
+            Desgined & Built by Onigbinde Oluseye Oluwatosin
             </Typography>
           </Box>
         </Box>

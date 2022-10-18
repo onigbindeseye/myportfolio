@@ -26,33 +26,49 @@ const Banner = () => {
   }));
 
   return (
-    <Box marginTop={'8%'}>
+    <Box marginTop={{ xs: '25%', sm: '8%' }}>
       <Box>
         <Typography
           color={'#43D8C9'}
           variant={'body1'}
-          paddingBottom={'1%'}
+          paddingBottom={{ xs: '5%', sm: '1%' }}
         >
           Hi, my name is
         </Typography>
-        <Typography
-          color={'#D8DFE2'}
-          variant={'h1'}
-          fontWeight={700}
-          paddingBottom={'1%'}
-        >
-          Oluseye Oluwatosin Onigbinde.
-        </Typography>
+        <Box display={{ xs: 'none', sm: 'inline' }}>
+          <Typography
+            color={'#D8DFE2'}
+            variant={'h1'}
+            fontWeight={700}
+            paddingBottom={{ xs: '5%', sm: '1%' }}
+          >
+            Oluseye Oluwatosin Onigbinde.
+          </Typography>
+        </Box>
+        <Box display={{ xs: 'inline', sm: 'none' }}>
+          <Typography
+            color={'#D8DFE2'}
+            variant={'h2'}
+            fontWeight={700}
+            paddingBottom={{ xs: '5%', sm: '1%' }}
+          >
+            Oluseye Oluwatosin Onigbinde.
+          </Typography>
+        </Box>
         <Typography
           color={'#B7B7B7'}
-          variant={'h2'}
+          variant={'h4'}
           fontWeight={700}
-          paddingBottom={'1%'}
+          paddingBottom={{ xs: '5%', sm: '1%' }}
         >
           I design and build solutions.
         </Typography>
-        <Box width={'70%'} marginLeft={0}>
-          <Typography color={'#B7B7B7'} variant={'body1'}>
+        <Box width={{ xs: '100%', sm: '70%' }} marginLeft={0}>
+          <Typography
+            color={'#B7B7B7'}
+            variant={'body1'}
+            paddingBottom={{ xs: '5%', sm: '1%' }}
+          >
             I am a Web Developer trained at Lambda School with years of
             experience in Finance, Accounting, Financial Modelling, Financial
             Reporting and Treasury Management. My passion to create, innovate
@@ -64,7 +80,7 @@ const Banner = () => {
           </Typography>
         </Box>
         <Box
-          width={'20%'}
+          width={{ xs: '60%', sm: '20%' }}
           marginLeft={0}
           marginTop={'2%'}
           display={'flex'}
@@ -103,7 +119,7 @@ const Banner = () => {
             <EmailIcon />
           </Avatar>
         </Box>
-        <Box marginTop={'3%'}>
+        <Box marginTop={{ xs: '8%', sm: '3%' }}>
           <ColorButton component={'a'} variant="outlined">
             My Portfolio
           </ColorButton>

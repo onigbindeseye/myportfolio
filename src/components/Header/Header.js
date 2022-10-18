@@ -112,7 +112,7 @@ const Header = () => {
               component={'a'}
               variant="outlined"
               size="medium"
-              href={''}
+              href={'https://docs.google.com/document/d/1uVEwoHTVicqzQ-Tp6sqneOm5uZbV4c16lCiTihOtjoM/edit?usp=sharing'}
               target={'_blank'}
             >
               Resume
@@ -159,7 +159,7 @@ const Header = () => {
                 aria-haspopup="true"
                 onClick={handleClick}
               >
-                <MenuIcon fontSize="large" sx={{ color: '#248888' }} />
+                <MenuIcon fontSize="large" sx={{ color: '#43D8C9 ' }} />
               </IconButton>
             </Toolbar>
           </AppBar>

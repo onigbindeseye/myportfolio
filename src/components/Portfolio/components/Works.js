@@ -9,12 +9,12 @@ import {portfolio} from './portfolio';
 
 const Works = () => {
   return (
-    <Box marginTop={'8%'}>
+    <Box marginTop={{xs:'25%', sm:'8%'}}>
       <Box>
         <Typography
           color={'#43D8C9'}
           variant={'h3'}
-          paddingBottom={'3%'}
+          paddingBottom={{xs:'8%', sm:'3%'}}
           fontWeight={700}
         >
           Some Solutions I've Built
@@ -24,12 +24,12 @@ const Works = () => {
         <Box
           display={'flex'}
           justifyContent={'space-between'}
-          margin={'3% 0% 6% 0%'}
+          margin={{xs:'6% 0% 25% 0%', sm:'5% 0% 15% 0%'}}
           key={id}
           flexWrap={'wrap'}
         >
           <Box
-            width={'50%'}
+            width={{xs:'100%', sm:'50%'}}
             component={'img'}
             src={portfolios.imgpath}
             alt={'screenshot'}
@@ -41,7 +41,7 @@ const Works = () => {
               },
             }}
           />
-          <Box width={'50%'} marginRight={0}>
+          <Box width={{xs:'100%', sm:'50%'}} marginRight={0}>
             <Typography
               textAlign={'right'}
               variant={'h5'}
@@ -67,7 +67,7 @@ const Works = () => {
               </Typography>
             </Box>
             <Box
-              width={'70%'}
+              width={{xs:'100%', sm:'70%'}}
               marginRight={0}
               marginTop={'2%'}
               display={'flex'}
@@ -116,7 +116,7 @@ const Works = () => {
               </Typography>
             </Box>
             <Box
-              width={'15%'}
+              width={{xs:'30%', sm:'15%'}}
               marginRight={0}
               marginTop={'2%'}
               display={'flex'}

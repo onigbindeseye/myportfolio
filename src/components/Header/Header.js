@@ -71,6 +71,7 @@ const Header = () => {
           width={'100%'}
           fontWeight={600}
           color={'#43D8C9'}
+          paddingLeft={'25%'}
         >
           <Box>
             <Link
@@ -80,16 +81,6 @@ const Header = () => {
               color="#43D8C9"
             >
               Profile
-            </Link>
-          </Box>
-          <Box>
-            <Link
-              underline="none"
-              component="a"
-              href="/portfolio"
-              color="#43D8C9"
-            >
-              Skills
             </Link>
           </Box>
           <Box>
@@ -174,10 +165,10 @@ const Header = () => {
             TransitionComponent={Fade}
           >
             <MenuItem onClick={handleClose} component="a" href="/">
-              Profile
+              Home
             </MenuItem>
-            <MenuItem onClick={handleClose} component="a" href="/skills">
-              Skills
+            <MenuItem onClick={handleClose} component="a" href="/profile">
+              Profile
             </MenuItem>
             <MenuItem onClick={handleClose} component="a" href="/portfolio">
               Portfolio

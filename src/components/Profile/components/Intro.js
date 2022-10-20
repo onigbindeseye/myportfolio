@@ -35,13 +35,14 @@ const Intro = () => {
             color={'#D8DFE2'}
             paddingBottom={{ xs: '5%', sm: '3%' }}
           >
-            After I resigned from banking and run a personal business which failed, I
-            decided to go back to my passion for programming where I would be
-            providing real solutions as I was initially solving problems that
-            already had solution templates or formats which became
+            After I resigned from banking and run a personal business which
+            failed, I decided to go back to my passion for programming where I
+            would be providing real solutions as I was initially solving
+            problems that already had solution templates or formats which became
             uninteresting to me. I had a training in Web Development and
             Computer Science with Lambda School (now Bloom Institute of
-            Technology) where I took courses on frontend & backend web development.
+            Technology) where I took courses on frontend & backend web
+            development.
           </Typography>
           <Typography
             variant="body1"

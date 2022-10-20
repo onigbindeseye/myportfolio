@@ -48,7 +48,7 @@ const Post = () => {
         color={'#43D8C9'}
         paddingBottom={'2%'}
       >
-        Blog
+        I write, sometimes
       </Typography>
       <Box>
         <Grid container spacing={2}>

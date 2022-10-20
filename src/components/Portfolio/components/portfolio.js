@@ -62,7 +62,7 @@ export const portfolio = [
     stack4: 'Express',
     stack5: 'PostgreSQL',
     github: 'http://github.com/',
-    web: 'https://policyshappers.com',
+    web: 'https://frontend-policy-shapers.vercel.app/',
   },
   {
     id: 5,
@@ -90,7 +90,7 @@ export const portfolio = [
     stack4: 'Express',
     stack5: 'PostgreSQL',
     github: 'http://github.com/',
-    web: 'https://linker.ng',
+    web: 'https://motivators-crib-africa.herokuapp.com/',
   },
   {
     id: 7,

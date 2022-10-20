@@ -5,6 +5,7 @@ import { ThemeProvider, createTheme } from '@mui/material/styles';
 import Home from 'components/Home';
 import Portfolio from 'components/Portfolio';
 import Blog from 'components/Blog';
+import Profile from 'components/Profile';
 
 const theme = createTheme({
   typography: {
@@ -20,6 +21,7 @@ function App() {
       <div className="App">
         <Switch>
           <Route exact path="/" component={Home} />
+          <Route exact path="/profile" component={Profile} />
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/blog" component={Blog} />
         </Switch>

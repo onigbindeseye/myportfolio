@@ -41,10 +41,7 @@ const Works = () => {
               },
             }}
           />
-          <Box
-            width={{ xs: '100%', sm: '50%' }}
-            marginRight={0}
-          >
+          <Box width={{ xs: '100%', sm: '50%' }} marginRight={0}>
             <Box display={{ xs: 'none', sm: 'inline' }}>
               <Typography
                 textAlign={'right'}
@@ -81,19 +78,13 @@ const Works = () => {
               >
                 {portfolios.title}
               </Typography>
-              <Box
-                bgcolor={'#142850'}
-                padding={'4% 1%'}
-                width={'100%'}
+              <Typography
+                textAlign={'left'}
+                variant={'subtitle2'}
+                color={'#D8DFE2'}
               >
-                <Typography
-                  textAlign={'left'}
-                  variant={'subtitle2'}
-                  color={'#B7B7B7'}
-                >
-                  {portfolios.description}
-                </Typography>
-              </Box>
+                {portfolios.description}
+              </Typography>
             </Box>
             <Box
               width={{ xs: '100%', sm: '70%' }}

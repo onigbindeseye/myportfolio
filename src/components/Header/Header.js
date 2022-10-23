@@ -54,7 +54,7 @@ const Header = () => {
         paddingLeft={{ xs: '0%', sm: '2%' }}
         width={230}
       >
-        <Box component="a" underline="none" href="/" title="Oluseye">
+        <Box component="a" underline="none" href="/" title="Oluseye Onigbinde">
           <img src={logo} alt="logo" width={'100%'} />
         </Box>
       </Box>
@@ -123,7 +123,7 @@ const Header = () => {
                 component="a"
                 underline="none"
                 href="/"
-                title="Oluseye"
+                title="Oluseye Onigbinde"
                 width={90}
                 marginRight={25}
                 marginTop={1}

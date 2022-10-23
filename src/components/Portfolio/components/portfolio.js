@@ -108,7 +108,7 @@ export const portfolio = [
     imgpath: covid,
     title: 'Advancing Community Access to Equitable COVID-19 Response',
     description:
-      'This project is executed by Oxlade Consulting in collaboration with LEGS Senegal, SEND-Ghana and Seed4Africa. Our project is focused on Advancing Community Access to Equitable COVID-19 Response (CACER) in three West African countries - Nigeria, Senegal and Ghana. They have chosen three countries within the anglophone and francophone sphere which are the main economies of West Africa and are also locations of research conducted by Dalberg.',
+      'This project is executed by Oxlade Consulting in collaboration with LEGS Senegal, BudgIT Ghana and Seed4Africa. Our project is focused on Advancing Community Access to Equitable COVID-19 Response (CACER) in three West African countries - Nigeria, Senegal and Ghana. They have chosen three countries within the anglophone and francophone sphere which are the main economies of West Africa and are also locations of research conducted by Dalberg.',
     stack1: 'React',
     stack2: 'Material-UI',
     github: 'http://github.com/',

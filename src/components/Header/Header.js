@@ -103,7 +103,7 @@ const Header = () => {
               component={'a'}
               variant="outlined"
               size="medium"
-              href={'https://docs.google.com/document/d/1uVEwoHTVicqzQ-Tp6sqneOm5uZbV4c16lCiTihOtjoM/edit?usp=sharing'}
+              href={''}
               target={'_blank'}
             >
               Resume

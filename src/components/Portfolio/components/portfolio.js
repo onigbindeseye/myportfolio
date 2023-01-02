@@ -8,6 +8,7 @@ import budgit from 'images/budgit.png';
 import covid from 'images/covid.png';
 import calculator from 'images/calculator.png';
 import lovingsitter from 'images/lovingsitter.png';
+import vicky from 'images/vicky.png';
 
 export const portfolio = [
   {
@@ -22,7 +23,7 @@ export const portfolio = [
     stack4: 'Express',
     stack5: 'PostgreSQL',
     github: 'http://github.com/onigbindeseye',
-    web: 'https://grap.com/',
+    web: 'https://grap.org.ng/',
   },
   {
     id: 2,
@@ -50,7 +51,7 @@ export const portfolio = [
     stack4: 'Express',
     stack5: 'PostgreSQL',
     github: 'http://github.com/onigbindeseye',
-    web: 'https://loginaija.com',
+    web: 'http://loginaija.com',
   },
   {
     id: 4,
@@ -78,7 +79,7 @@ export const portfolio = [
     stack4: 'Express',
     stack5: 'PostgreSQL',
     github: 'http://github.com/onigbindeseye',
-    web: 'https://linker.ng',
+    web: 'http://linker.ng',
   },
   {
     id: 6,
@@ -145,7 +146,7 @@ export const portfolio = [
   },
   {
     id: 11,
-    imgpath: lovingsitter,
+    imgpath: vicky,
     title: 'Vicky Stores',
     description:
       'Vicky Stores is an e-commerce site using FakeStoreAPI. It allows you to select products from various categories and checkout easily.',

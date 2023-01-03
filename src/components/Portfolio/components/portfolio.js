@@ -149,12 +149,12 @@ export const portfolio = [
     imgpath: vicky,
     title: 'Vicky Stores',
     description:
-      'Vicky Stores is an e-commerce site using FakeStoreAPI. It allows you to select products from various categories and checkout easily.',
+      'Vicky Stores is a demo e-commerce site developed using FakeStoreAPI for the products. It allows you to select products from various categories and checkout easily.',
     stack1: 'React',
     stack2: 'Material-UI',
     stack3: 'Javascript',
     stack4: 'FakeStoreAPI',
     github: 'https://github.com/seyeonigbinde/vicky-stores',
-    web: 'https://vicky-stores.vercel.app/',
+    web: 'https://vicky-stores-onigbindeseye.vercel.app',
   },
 ];

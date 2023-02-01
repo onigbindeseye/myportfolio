@@ -126,7 +126,7 @@ const Header = () => {
                 title="Oluseye Onigbinde"
                 width={90}
                 marginRight={25}
-                marginTop={1}
+                marginTop={2}
                 marginBottom={1}
               >
                 <Box

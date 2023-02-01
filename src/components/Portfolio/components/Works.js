@@ -1,4 +1,6 @@
 import React from 'react';
+import {  styled } from '@mui/material/styles';
+import Button from '@mui/material/Button';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import { teal } from '@mui/material/colors';
@@ -6,6 +8,36 @@ import Avatar from '@mui/material/Avatar';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import { portfolio } from './portfolio';
+
+const ColorButton = styled(Button)(() => ({
+  color: '#fff',
+  width: 25,
+  height: 45,
+  fontWeight: 600,
+  fontSize: '16px',
+  textTransform: 'capitalize',
+  marginRight: '2%',
+  backgroundColor: '#43D8C9',
+  borderColor: '#43D8C9',
+  '&:hover': {
+    color: '#fff',
+    borderColor: '#43D8C9',
+  },
+}));
+
+const ColorButton2 = styled(Button)(() => ({
+  color: '#43D8C9',
+  width: 25,
+  height: 45,
+  fontWeight: 600,
+  fontSize: '16px',
+  textTransform: 'capitalize',
+  borderColor: '#43D8C9',
+  '&:hover': {
+    color: '#fff',
+    borderColor: '#43D8C9',
+  },
+}));
 
 const Works = () => {
   return (
@@ -24,7 +56,7 @@ const Works = () => {
         <Box
           display={'flex'}
           justifyContent={'space-between'}
-          margin={{ xs: '6% 0% 25% 0%', sm: '5% 0% 15% 0%' }}
+          margin={{ xs: '6% 0% 25% 0%', sm: '5% 0% 10% 0%' }}
           key={id}
           flexWrap={'wrap'}
         >
@@ -163,6 +195,24 @@ const Works = () => {
           </Box>
         </Box>
       ))}
+      <Box display={'flex'} justifyContent={'center'}>
+        <ColorButton
+          component={'a'}
+          variant="outlined"
+          size="medium"
+          href={'/portfolio/page1'}
+        >
+          1
+        </ColorButton>
+        <ColorButton2
+          component={'a'}
+          variant="outlined"
+          size="medium"
+          href={'/portfolio/page2'}
+        >
+          2
+        </ColorButton2>
+      </Box>
     </Box>
   );
 };

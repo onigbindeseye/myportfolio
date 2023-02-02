@@ -1,7 +1,7 @@
 import grap from 'images/grap.png';
 import yvotenaija from 'images/yvotenaija.png';
 import login from 'images/login.png';
-import policy from 'images/policy.png';
+import covid from 'images/covid.png';
 import linker from 'images/linker.png';
 import motivator from 'images/motivator.png';
 
@@ -50,17 +50,14 @@ export const portfolio2 = [
   },
   {
     id: 4,
-    imgpath: policy,
-    title: 'Policy Shapers',
+    imgpath: covid,
+    title: 'Advancing Community Access to Equitable COVID-19 Response',
     description:
-      'Policy Shapers is a youth-led open source platform for policy ideas that address the world’s most pressing challenges. The platform features policy ideas worth implementing. Through Policy Shapers they hope to inspire the next generation of policymakers and provide them a platform to share their ideas and collaborate for change. The policy ideas shared on this platform are accessible publicly for anyone to learn from and this is in line with core open source principles of open exchange, collaborative participation, transparency, meritocracy, and community-oriented development.',
+      'This project is executed by Oxlade Consulting in collaboration with LEGS Senegal, BudgIT Ghana and Seed4Africa. Our project is focused on Advancing Community Access to Equitable COVID-19 Response (CACER) in three West African countries - Nigeria, Senegal and Ghana. They have chosen three countries within the anglophone and francophone sphere which are the main economies of West Africa and are also locations of research conducted by Dalberg.',
     stack1: 'React',
     stack2: 'Material-UI',
-    stack3: 'Nodejs',
-    stack4: 'Express',
-    stack5: 'PostgreSQL',
     github: 'http://github.com/onigbindeseye',
-    web: 'https://frontend-policy-shapers.vercel.app/',
+    web: 'https://cacer.africa/',
   },
   {
     id: 5,

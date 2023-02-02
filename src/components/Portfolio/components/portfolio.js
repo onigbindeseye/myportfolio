@@ -1,8 +1,8 @@
 import budgit from 'images/budgit.png';
-import covid from 'images/covid.png';
 import calculator from 'images/calculator.png';
 import lovingsitter from 'images/lovingsitter.png';
 import vicky from 'images/vicky.png';
+import policy from 'images/policy.png';
 
 export const portfolio = [
   {
@@ -47,14 +47,17 @@ export const portfolio = [
   },
   {
     id: 4,
-    imgpath: covid,
-    title: 'Advancing Community Access to Equitable COVID-19 Response',
+    imgpath: policy,
+    title: 'Policy Shapers',
     description:
-      'This project is executed by Oxlade Consulting in collaboration with LEGS Senegal, BudgIT Ghana and Seed4Africa. Our project is focused on Advancing Community Access to Equitable COVID-19 Response (CACER) in three West African countries - Nigeria, Senegal and Ghana. They have chosen three countries within the anglophone and francophone sphere which are the main economies of West Africa and are also locations of research conducted by Dalberg.',
+      'Policy Shapers is a youth-led open source platform for policy ideas that address the world’s most pressing challenges. The platform features policy ideas worth implementing. Through Policy Shapers they hope to inspire the next generation of policymakers and provide them a platform to share their ideas and collaborate for change. The policy ideas shared on this platform are accessible publicly for anyone to learn from and this is in line with core open source principles of open exchange, collaborative participation, transparency, meritocracy, and community-oriented development.',
     stack1: 'React',
     stack2: 'Material-UI',
-    github: 'http://github.com/onigbindeseye',
-    web: 'https://cacer.africa/',
+    stack3: 'Nodejs',
+    stack4: 'Express',
+    stack5: 'PostgreSQL',
+    github: 'https://github.com/Policy-Shapers',
+    web: 'https://frontend-policy-shapers.vercel.app/',
   },
   {
     id: 5,
@@ -64,7 +67,7 @@ export const portfolio = [
       'Active Citizen Award is BudgIT’s initiative and signature move to spotlight and appreciate personalities, organizations and agencies doing these ground-breaking humanitarian work in Nigeria. They believe that the ACA will stir more conversations on the need to recognize the tremendous contributions of our civic leaders to effective governance and an active civic space in Nigeria.',
     stack1: 'React',
     stack2: 'Material-UI',
-    github: 'http://github.com/onigbindeseye',
+    github: 'https://github.com/onigbindeseye',
     web: 'https://awards.civichive.org/',
   },
 ];

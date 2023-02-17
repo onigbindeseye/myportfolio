@@ -120,7 +120,11 @@ const Banner = () => {
           </Avatar>
         </Box>
         <Box marginTop={{ xs: '8%', sm: '3%' }}>
-          <ColorButton component={'a'}  href="/portfolio" variant="outlined">
+          <ColorButton
+            component={'a'}
+            href="/portfolio/page1"
+            variant="outlined"
+          >
             My Portfolio
           </ColorButton>
         </Box>

@@ -87,7 +87,7 @@ const Header = () => {
             <Link
               underline="none"
               component="a"
-              href="/portfolio"
+              href="/portfolio/page1"
               color="#43D8C9"
             >
               Portfolio
@@ -170,7 +170,7 @@ const Header = () => {
             <MenuItem onClick={handleClose} component="a" href="/profile">
               Profile
             </MenuItem>
-            <MenuItem onClick={handleClose} component="a" href="/portfolio">
+            <MenuItem onClick={handleClose} component="a" href="/portfolio/page1">
               Portfolio
             </MenuItem>
             <MenuItem onClick={handleClose} component="a" href="/blog">

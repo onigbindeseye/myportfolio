@@ -3,6 +3,7 @@ import calculator from 'images/calculator.png';
 import lovingsitter from 'images/lovingsitter.png';
 import vicky from 'images/vicky.png';
 import policy from 'images/policy.png';
+import ondesign from 'images/ondesign.png';
 
 export const portfolio = [
   {
@@ -69,5 +70,17 @@ export const portfolio = [
     stack2: 'Material-UI',
     github: 'https://github.com/onigbindeseye',
     web: 'https://awards.civichive.org/',
+  },
+  {
+    id: 6,
+    imgpath: ondesign,
+    title: 'OnDesign Technologies',
+    description:
+      'OnDesign is a full-service digital agency, that designs and develops digital products for clients across the world. They deliver digital services like Web and Mobile Applications Development, Full Services Branding, Infographics, Document Design and Printing, Animated Videos, Data Analysis and Surveys. The contact form on the site is integrated with the EmailJS API.',
+    stack1: 'React',
+    stack2: 'Material-UI',
+    stack3: 'EmailJS',
+    github: 'https://github.com/onigbindeseye',
+    web: 'https://ondesign.io/',
   },
 ];

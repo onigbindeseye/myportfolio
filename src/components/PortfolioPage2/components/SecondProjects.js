@@ -1,5 +1,5 @@
 import React from 'react';
-import {  styled } from '@mui/material/styles';
+import { styled } from '@mui/material/styles';
 import Button from '@mui/material/Button';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
@@ -7,17 +7,16 @@ import { teal } from '@mui/material/colors';
 import Avatar from '@mui/material/Avatar';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
-import { portfolio } from './portfolio';
+import { portfolio2 } from '../../../static/portfolio2';
 
 const ColorButton = styled(Button)(() => ({
-  color: '#fff',
+  color: '#43D8C9',
   width: 25,
   height: 45,
   fontWeight: 600,
   fontSize: '16px',
   textTransform: 'capitalize',
   marginRight: '2%',
-  backgroundColor: '#43D8C9',
   borderColor: '#43D8C9',
   '&:hover': {
     color: '#fff',
@@ -26,12 +25,14 @@ const ColorButton = styled(Button)(() => ({
 }));
 
 const ColorButton2 = styled(Button)(() => ({
-  color: '#43D8C9',
+  color: '#fff',
   width: 25,
   height: 45,
   fontWeight: 600,
   fontSize: '16px',
+  marginRight: '2%',
   textTransform: 'capitalize',
+  backgroundColor: '#43D8C9',
   borderColor: '#43D8C9',
   '&:hover': {
     color: '#fff',
@@ -39,7 +40,7 @@ const ColorButton2 = styled(Button)(() => ({
   },
 }));
 
-const Works = () => {
+const SecondProjects = () => {
   return (
     <Box marginTop={{ xs: '25%', sm: '8%' }}>
       <Box>
@@ -52,7 +53,7 @@ const Works = () => {
           Some Solutions I've Built
         </Typography>
       </Box>
-      {portfolio.map((portfolios, id) => (
+      {portfolio2.map((portfolios, id) => (
         <Box
           display={'flex'}
           justifyContent={'space-between'}
@@ -200,7 +201,7 @@ const Works = () => {
           component={'a'}
           variant="outlined"
           size="medium"
-          href={'/portfolio/page1'}
+          href={'/portfolio'}
         >
           1
         </ColorButton>
@@ -212,9 +213,17 @@ const Works = () => {
         >
           2
         </ColorButton2>
+        <ColorButton
+          component={'a'}
+          variant="outlined"
+          size="medium"
+          href={'/portfolio/page3'}
+        >
+          3
+        </ColorButton>
       </Box>
     </Box>
   );
 };
 
-export default Works;
+export default SecondProjects;

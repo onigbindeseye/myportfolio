@@ -4,9 +4,9 @@ import Container from 'common/Container';
 import Header from 'components/Header';
 import Footer from 'components/Footer';
 import AppBar from '@mui/material/AppBar';
-import FirstProjects from './components/FirstProjects';
+import SecondProjects from './components/SecondProjects';
 
-const Portfolio = () => {
+const PortfolioPage2 = () => {
   return (
     <Box>
       <AppBar
@@ -22,7 +22,7 @@ const Portfolio = () => {
       </AppBar>
       <Box bgcolor={'#0D3446'}>
         <Container>
-          <FirstProjects />
+          <SecondProjects />
         </Container>
       </Box>
       <Box bgcolor={'#0D3446'}>
@@ -34,4 +34,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default PortfolioPage2;

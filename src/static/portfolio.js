@@ -1,9 +1,8 @@
 import budgit from 'images/budgit.png';
 import calculator from 'images/calculator.png';
-import lovingsitter from 'images/lovingsitter.png';
 import vicky from 'images/vicky.png';
-import policy from 'images/policy.png';
 import ondesign from 'images/ondesign.png';
+import grap from 'images/grap.png';
 
 export const portfolio = [
   {
@@ -21,20 +20,6 @@ export const portfolio = [
   },
   {
     id: 2,
-    imgpath: lovingsitter,
-    title: 'LovingSitter',
-    description:
-      'LovingSitter is an ongoing web application that makes it easier for dog owners to find a dog sitter especially in real-time. The goal is to create a beautiful, easy-to-use website that helps dog owners find dog sitters when they need it most. We want dog owners to feel secure, comfortable and at ease with their decision to book a dog sitter. We want dog sitters to feel excited to meet and care for a new dog.  This project was created by Hatchways Career Accelerator Program and I collaborated with two other developers on this.',
-    stack1: 'React',
-    stack2: 'Typescript',
-    stack3: 'MongoDB',
-    stack4: 'Material-UI',
-    stack5: 'Node',
-    github: 'https://github.com/hatchways/team-bruschetta',
-    web: '',
-  },
-  {
-    id: 3,
     imgpath: calculator,
     title: 'Calculator',
     description:
@@ -47,21 +32,21 @@ export const portfolio = [
     web: 'https://calculator-app-psi.vercel.app/',
   },
   {
-    id: 4,
-    imgpath: policy,
-    title: 'Policy Shapers',
+    id: 3,
+    imgpath: grap,
+    title: 'Grassroot Advocacy Project - GRAP',
     description:
-      'Policy Shapers is a youth-led open source platform for policy ideas that address the world’s most pressing challenges. The platform features policy ideas worth implementing. Through Policy Shapers they hope to inspire the next generation of policymakers and provide them a platform to share their ideas and collaborate for change. The policy ideas shared on this platform are accessible publicly for anyone to learn from and this is in line with core open source principles of open exchange, collaborative participation, transparency, meritocracy, and community-oriented development.',
+      'GRAP is a civic-tech initiative for budget participation by PROMAD—using tech to document the NEEDS of Nigerian communities for adoption into the annual budget. The application is designed to fill the gap and to engage communities and citizens digitally and offline to conduct NEEDS assessment which would be adopted in the budget for the people and empower them on how to hold the government accountable.',
     stack1: 'React',
     stack2: 'Material-UI',
     stack3: 'Nodejs',
     stack4: 'Express',
     stack5: 'PostgreSQL',
-    github: 'https://github.com/Policy-Shapers',
-    web: 'https://frontend-policy-shapers.vercel.app/',
+    github: 'http://github.com/onigbindeseye',
+    web: 'https://grap.org.ng/',
   },
   {
-    id: 5,
+    id: 4,
     imgpath: budgit,
     title: 'Active Citizen Award',
     description:
@@ -72,7 +57,7 @@ export const portfolio = [
     web: 'https://awards.civichive.org/',
   },
   {
-    id: 6,
+    id: 5,
     imgpath: ondesign,
     title: 'OnDesign Technologies',
     description:

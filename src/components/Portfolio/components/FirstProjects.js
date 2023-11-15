@@ -1,5 +1,5 @@
 import React from 'react';
-import {  styled } from '@mui/material/styles';
+import { styled } from '@mui/material/styles';
 import Button from '@mui/material/Button';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
@@ -7,30 +7,16 @@ import { teal } from '@mui/material/colors';
 import Avatar from '@mui/material/Avatar';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
-import { portfolio2 } from './portfolio2';
+import { portfolio } from '../../../static/portfolio';
 
 const ColorButton = styled(Button)(() => ({
-  color: '#43D8C9',
-  width: 25,
-  height: 45,
-  fontWeight: 600,
-  fontSize: '16px',
-  textTransform: 'capitalize',
-  marginRight: '2%',
-  borderColor: '#43D8C9',
-  '&:hover': {
-    color: '#fff',
-    borderColor: '#43D8C9',
-  },
-}));
-
-const ColorButton2 = styled(Button)(() => ({
   color: '#fff',
   width: 25,
   height: 45,
   fontWeight: 600,
   fontSize: '16px',
   textTransform: 'capitalize',
+  marginRight: '2%',
   backgroundColor: '#43D8C9',
   borderColor: '#43D8C9',
   '&:hover': {
@@ -39,7 +25,22 @@ const ColorButton2 = styled(Button)(() => ({
   },
 }));
 
-const Works2 = () => {
+const ColorButton2 = styled(Button)(() => ({
+  color: '#43D8C9',
+  width: 25,
+  height: 45,
+  fontWeight: 600,
+  fontSize: '16px',
+  marginRight: '2%',
+  textTransform: 'capitalize',
+  borderColor: '#43D8C9',
+  '&:hover': {
+    color: '#fff',
+    borderColor: '#43D8C9',
+  },
+}));
+
+const FirstProjects = () => {
   return (
     <Box marginTop={{ xs: '25%', sm: '8%' }}>
       <Box>
@@ -52,7 +53,7 @@ const Works2 = () => {
           Some Solutions I've Built
         </Typography>
       </Box>
-      {portfolio2.map((portfolios, id) => (
+      {portfolio.map((portfolios, id) => (
         <Box
           display={'flex'}
           justifyContent={'space-between'}
@@ -200,7 +201,7 @@ const Works2 = () => {
           component={'a'}
           variant="outlined"
           size="medium"
-          href={'/portfolio/page1'}
+          href={'/portfolio'}
         >
           1
         </ColorButton>
@@ -212,9 +213,17 @@ const Works2 = () => {
         >
           2
         </ColorButton2>
+        <ColorButton2
+          component={'a'}
+          variant="outlined"
+          size="medium"
+          href={'/portfolio/page3'}
+        >
+          3
+        </ColorButton2>
       </Box>
     </Box>
   );
 };
 
-export default Works2;
+export default FirstProjects;

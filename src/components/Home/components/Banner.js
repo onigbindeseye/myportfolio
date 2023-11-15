@@ -69,14 +69,12 @@ const Banner = () => {
             variant={'body1'}
             paddingBottom={{ xs: '5%', sm: '1%' }}
           >
-            I am a Web Developer trained at Lambda School with years of
-            experience in Finance, Accounting, Financial Modelling, Financial
-            Reporting and Treasury Management. My passion to create, innovate
-            and solve problems made me developed interest in Web Development.
-            Before joining Lambda School, I have worked in the financial
-            services industry as a Financial Controller where I and my team
-            managed the financials and cashflows of the bank efficiently and
-            profitably.
+            I am a results-driven professional with a unique blend of expertise
+            in AWS Cloud Engineering, Software Development, and Finance. My
+            career journey has taken me from the world of finance and accounting
+            to the dynamic realm of technology. I am passionate about leveraging
+            my diverse background to create innovative solutions that bridge the
+            gap between business and technology.
           </Typography>
         </Box>
         <Box
@@ -97,7 +95,7 @@ const Banner = () => {
           <Avatar
             sx={{ bgcolor: teal[300] }}
             component="a"
-            href="'https://twitter.com/SeyeOni_Codes"
+            href="'https://twitter.com/SeyeintheCloud"
             target="blank"
           >
             <TwitterIcon />
@@ -120,11 +118,7 @@ const Banner = () => {
           </Avatar>
         </Box>
         <Box marginTop={{ xs: '8%', sm: '3%' }}>
-          <ColorButton
-            component={'a'}
-            href="/portfolio/page1"
-            variant="outlined"
-          >
+          <ColorButton component={'a'} href="/portfolio" variant="outlined">
             My Portfolio
           </ColorButton>
         </Box>

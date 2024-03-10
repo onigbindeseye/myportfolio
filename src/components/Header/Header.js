@@ -1,7 +1,7 @@
 import React from 'react';
 import Box from '@mui/material/Box';
 import { useTheme, styled } from '@mui/material/styles';
-import Button from '@mui/material/Button';
+// import Button from '@mui/material/Button';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import IconButton from '@mui/material/IconButton';
@@ -65,19 +65,19 @@ const Header = () => {
     justifyContent: 'flex-end',
   }));
 
-  const ColorButton = styled(Button)(() => ({
-    color: '#43D8C9',
-    width: 125,
-    height: 45,
-    fontWeight: 600,
-    fontSize: '16px',
-    textTransform: 'capitalize',
-    borderColor: '#43D8C9',
-    '&:hover': {
-      color: '#fff',
-      borderColor: '#43D8C9',
-    },
-  }));
+  // const ColorButton = styled(Button)(() => ({
+  //   color: '#43D8C9',
+  //   width: 125,
+  //   height: 45,
+  //   fontWeight: 600,
+  //   fontSize: '16px',
+  //   textTransform: 'capitalize',
+  //   borderColor: '#43D8C9',
+  //   '&:hover': {
+  //     color: '#fff',
+  //     borderColor: '#43D8C9',
+  //   },
+  // }));
 
   const theme = useTheme();
 

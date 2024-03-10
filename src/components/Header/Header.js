@@ -140,7 +140,7 @@ const Header = () => {
               Blog
             </Link>
           </Box>
-          <Box>
+          {/* <Box>
             <ColorButton
               component={'a'}
               variant="outlined"
@@ -150,7 +150,7 @@ const Header = () => {
             >
               Resume
             </ColorButton>
-          </Box>
+          </Box> */}
         </Box>
         <Box sx={{ display: { xs: 'flex', md: 'none' } }} width={'100%'}>
           <div>

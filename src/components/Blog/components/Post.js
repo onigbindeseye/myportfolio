@@ -8,6 +8,39 @@ import CardActionArea from '@mui/material/CardActionArea';
 
 const posts = [
   {
+    id: 6,
+    title: 'AWS Developer Toolkits — Developing with AWS App Runner',
+    image:
+      'https://miro.medium.com/v2/resize:fit:828/format:webp/1*gveCM4jakz3U6Jm2ph438Q.png',
+    caption:
+      'AWS App Runner is a fully managed service that makes it easy for developers to quickly build, deploy, and scale web applications and APIs. It builds and deploys web applications automatically, load balances...',
+    date: 'July 06, 2024',
+    link:
+      'https://medium.com/@seyeonigbinde/aws-developer-toolkits-developing-with-aws-app-runner-c62fb52acb72',
+  },
+  {
+    id: 5,
+    title: 'AWS Developer Toolkits — Developing with AWS Copilot',
+    image:
+      'https://miro.medium.com/v2/resize:fit:828/format:webp/1*zMqt-Nf293XFtkCMFhDweQ.png',
+    caption:
+      'AWS Copilot is an open-source Command Line Interface (CLI). It simplifies the process of building, releasing, and operating production-ready containerized apps on AWS App Runner, Amazon ECS...',
+    date: 'July 01, 2024',
+    link:
+      'https://medium.com/@seyeonigbinde/aws-developer-toolkits-developing-with-aws-copilot-007063d5f9da',
+  },
+  {
+    id: 4,
+    title: 'AWS Developer Toolkits — Developing with AWS Cloud9',
+    image:
+      'https://miro.medium.com/v2/resize:fit:828/format:webp/1*o5E67_rntGlJr2KGPLMWww.png',
+    caption:
+      'VSCode, PyCharm, and IntelliJ IDEA are popular integrated development environments (IDEs) that offer robust features like code editing, debugging, and project management across various programming languages...',
+    date: 'June 24, 2024',
+    link:
+      'https://medium.com/@seyeonigbinde/aws-developer-toolkits-developing-with-aws-cloud9-f8d1ecf12ce8',
+  },
+  {
     id: 3,
     title: 'Developing Civic Tech Solutions for Nigeria — My React Story',
     image: 'https://miro.medium.com/max/828/1*YEAJ5uOESBWvUUPhvobXzA.png',
@@ -22,7 +55,7 @@ const posts = [
     title: 'Career Path: My AWS Solutions Architect Journey',
     image: 'https://miro.medium.com/max/640/1*KidwL2Yi7rsV03I89YPD_w.png',
     caption:
-      'After completing my web development training at the Bloom Institute of Technology (formerly Lambda School), I submitted over 150 job applications, had some interviews and as I was applying for jobs, I was still improving my portfolio.',
+      'After completing my web development training at the Bloom Institute of Technology (formerly Lambda School), I submitted over 150 job applications and had some interviews because I was trying to leave the Civic Hive for international opportunities.',
     date: 'May 29, 2022',
     link:
       'https://medium.com/@seyeonigbinde/career-path-my-aws-solutions-architect-journey-9256cbd7e7cd',
@@ -61,7 +94,11 @@ const Post = () => {
               marginTop={{ xs: '10%', sm: '2%' }}
             >
               <Card sx={{ maxWidth: 380, height: 520 }}>
-                <CardActionArea component={'a'} href={post.link} target={'blank'}>
+                <CardActionArea
+                  component={'a'}
+                  href={post.link}
+                  target={'blank'}
+                >
                   <CardMedia
                     component="img"
                     height="250"

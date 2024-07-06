@@ -22,7 +22,7 @@ const Intro = () => {
             paddingBottom={{ xs: '5%', sm: '3%' }}
           >
             Hello! My name is Oluseye, I love to design and build solutions. I
-            am a Software Developer and an AWS Cloud Engineer with 2 AWS
+            am a DevOps Engineer and a Software Developer with 3 AWS
             Certifications. I have over 4 years experience in Tech and prior
             experience in Finance and Accounting. My passion for tech was based
             on the interest I had during my days in the university for graphic

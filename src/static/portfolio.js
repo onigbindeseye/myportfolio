@@ -15,6 +15,7 @@ import lovingsitter from 'images/lovingsitter.png';
 import aquatic from 'images/aquatic.png';
 import tracka from 'images/tracka.png';
 import ysl from 'images/ysl.png';
+import centre from 'images/centre.png';
 
 export const portfolio = [
   {
@@ -68,6 +69,19 @@ export const portfolio = [
     stack4: 'EmailJS',
     github: 'http://github.com/onigbindeseye',
     web: 'https://yslrealtors.org/',
+  },
+  {
+    id: 18,
+    imgpath: centre,
+    title: 'Oluseun Onigbinde Resource Centre',
+    description:
+      'The Oluseun Onigbinde Resource Centre, previously known as Proximity Trust, is a beacon of hope and opportunity, dedicated to fostering positive change and empowerment within communities across Oyo State. Founded by Oluseun Onigbinde, the Resource Centre is committed to providing comprehensive support and resources to individuals and communities. ',
+    stack1: 'React',
+    stack2: 'JavaScript',
+    stack3: 'Material-UI',
+    stack4: 'EmailJS',
+    github: 'http://github.com/onigbindeseye',
+    web: 'https://onigbindecentre.org/',
   },
   {
     id: 5,

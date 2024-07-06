@@ -1,6 +1,4 @@
-import React from 'react';
-import { styled } from '@mui/material/styles';
-import Button from '@mui/material/Button';
+import React, { useState } from 'react';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import { teal } from '@mui/material/colors';
@@ -8,39 +6,25 @@ import Avatar from '@mui/material/Avatar';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import { portfolio } from '../../../static/portfolio';
-
-const ColorButton = styled(Button)(() => ({
-  color: '#fff',
-  width: 25,
-  height: 45,
-  fontWeight: 600,
-  fontSize: '16px',
-  textTransform: 'capitalize',
-  marginRight: '2%',
-  backgroundColor: '#43D8C9',
-  borderColor: '#43D8C9',
-  '&:hover': {
-    color: '#fff',
-    borderColor: '#43D8C9',
-  },
-}));
-
-const ColorButton2 = styled(Button)(() => ({
-  color: '#43D8C9',
-  width: 25,
-  height: 45,
-  fontWeight: 600,
-  fontSize: '16px',
-  marginRight: '2%',
-  textTransform: 'capitalize',
-  borderColor: '#43D8C9',
-  '&:hover': {
-    color: '#fff',
-    borderColor: '#43D8C9',
-  },
-}));
+import Pagination from '@mui/material/Pagination';
 
 const FirstProjects = () => {
+  const [currentPage, setCurrentPage] = useState(1);
+  const projectsPerPage = 5;
+
+  const totalPages = Math.ceil(portfolio.length / projectsPerPage);
+
+  const indexOfLastProject = currentPage * projectsPerPage;
+  const indexOfFirstProject = indexOfLastProject - projectsPerPage;
+  const currentProjects = portfolio.slice(
+    indexOfFirstProject,
+    indexOfLastProject,
+  );
+
+  const handlePageChange = (event, value) => {
+    setCurrentPage(value);
+  };
+
   return (
     <Box marginTop={{ xs: '25%', sm: '8%' }}>
       <Box>
@@ -53,7 +37,7 @@ const FirstProjects = () => {
           Some Solutions I've Built
         </Typography>
       </Box>
-      {portfolio.map((portfolios, id) => (
+      {currentProjects.map((portfolios, id) => (
         <Box
           display={'flex'}
           justifyContent={'space-between'}
@@ -196,31 +180,13 @@ const FirstProjects = () => {
           </Box>
         </Box>
       ))}
-      <Box display={'flex'} justifyContent={'center'}>
-        <ColorButton
-          component={'a'}
-          variant="outlined"
-          size="medium"
-          href={'/portfolio'}
-        >
-          1
-        </ColorButton>
-        <ColorButton2
-          component={'a'}
-          variant="outlined"
-          size="medium"
-          href={'/portfolio/page2'}
-        >
-          2
-        </ColorButton2>
-        <ColorButton2
-          component={'a'}
-          variant="outlined"
-          size="medium"
-          href={'/portfolio/page3'}
-        >
-          3
-        </ColorButton2>
+      <Box display="flex" justifyContent="center" marginTop={4}>
+        <Pagination
+          count={totalPages}
+          page={currentPage}
+          onChange={handlePageChange}
+          sx={{ bgcolor: '#43D8C9' }}
+        />
       </Box>
     </Box>
   );

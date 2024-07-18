@@ -6,6 +6,7 @@ import Home from 'components/Home';
 import Portfolio from 'components/Portfolio';
 import Blog from 'components/Blog';
 import Profile from 'components/Profile';
+import Exp from 'components/Exp';
 
 const theme = createTheme({
   typography: {
@@ -20,6 +21,7 @@ function App() {
     <ThemeProvider theme={theme}>
       <div className="App">
         <Switch>
+          <Route exact path="/blocked-funds" component={Exp} />
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/profile" component={Profile} />
           <Route exact path="/blog" component={Blog} />

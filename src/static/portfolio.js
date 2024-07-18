@@ -42,7 +42,7 @@ export const portfolio = [
     stack2: 'JavaScript',
     stack3: 'Material-UI',
     github: 'http://github.com/onigbindeseye',
-    web: 'https://demo-app-pink.vercel.app/active-citizens-festival',
+    web: 'https://festival.tracka.ng',
   },
   {
     id: 3,

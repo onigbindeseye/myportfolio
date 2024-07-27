@@ -51,7 +51,7 @@ const Banner = () => {
         </Typography>
       </Box>
       <Typography marginTop={'3%'} fontWeight={700} variant="h5">
-        Your Account
+        Onigbinde Oluseye
       </Typography>
       <Box marginTop={'1%'}>
         <Box

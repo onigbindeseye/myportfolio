@@ -135,6 +135,26 @@ const Header = () => {
               Portfolio
             </Link>
           </Box>
+          {/* <Box>
+            <Link
+              underline="none"
+              component="a"
+              href="/certifications"
+              color={'#43D8C9'}
+            >
+              Certifications
+            </Link>
+          </Box> */}
+          <Box>
+            <Link
+              underline="none"
+              component="a"
+              href="/books"
+              color={'#43D8C9'}
+            >
+              Books
+            </Link>
+          </Box>
           <Box>
             <Link underline="none" component="a" href="/blog" color={'#43D8C9'}>
               Blog
@@ -168,13 +188,14 @@ const Header = () => {
                   href="/"
                   title="Oluseye Onigbinde"
                   width={'100%'}
-                  marginRight={29}
+                  marginRight={24}
                   marginTop={2}
                   marginBottom={2}
                 >
                   <Box
                     component="img"
-                    height={'4vh'}
+                    height={'5vh'}
+                    // objectFit="cover"
                     sx={{
                       display: 'block',
                       position: 'relative',

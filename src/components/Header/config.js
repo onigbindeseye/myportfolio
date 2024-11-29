@@ -11,6 +11,11 @@ const navConfig = [
     title: 'Portfolio',
     path: '/portfolio',
   },
+
+  {
+    title: 'Books',
+    path: '/books',
+  },
   {
     title: 'Blog',
     path: '/blog',

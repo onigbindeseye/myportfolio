@@ -16,6 +16,7 @@ import aquatic from 'images/aquatic.png';
 import tracka from 'images/tracka.png';
 import ysl from 'images/ysl.png';
 import centre from 'images/centre.png';
+import blue from 'images/blue_echo.png';
 
 export const portfolio = [
   {
@@ -56,6 +57,18 @@ export const portfolio = [
     stack4: 'EmailJS',
     github: 'http://github.com/onigbindeseye',
     web: 'https://aquatichubafrique.com/',
+  },
+  {
+    id: 19,
+    imgpath: blue,
+    title: 'Blue-Echo Foundation',
+    description:
+      'Blue-Echo Foundation is a not-for-profit, non-political, and non-governmental organization devoted to climate change, the development and optimization of the blue economy in emerging economies and developing countries. ',
+    stack1: 'React',
+    stack2: 'JavaScript',
+    stack3: 'Material-UI',
+    github: 'http://github.com/onigbindeseye',
+    web: 'https://bluechofoundation.org/',
   },
   {
     id: 4,

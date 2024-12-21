@@ -1,8 +1,9 @@
 {
   "name": "myportfolio",
   "author": "onigbindeseye",
+  "homepage": "https://oluseyeonigbinde.org",
   "version": "1.0.0",
-  "description": "",
+  "description": "official website of Oluseye Onigbinde",
   "private": true,
   "scripts": {
     "start": "react-scripts start",
@@ -44,6 +45,7 @@
     "react": "^17.0.1",
     "react-countup": "^4.3.3",
     "react-dom": "^17.0.1",
+    "react-helmet-async": "^1.3.0",
     "react-images": "^1.1.7",
     "react-lazy-load-image-component": "^1.5.1",
     "react-router-dom": "^5.2.0",

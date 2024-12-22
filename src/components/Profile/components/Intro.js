@@ -5,7 +5,7 @@ import design from 'images/design.svg';
 
 const Intro = () => {
   return (
-    <Box padding={{ xs: '25% 0%', sm: '9% 0%' }}>
+    <Box padding={{ xs: '25% 0%', sm: '9% 0% 0% 0%' }}>
       <Typography
         variant="h3"
         fontWeight={700}

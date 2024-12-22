@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import Box from '@mui/material/Box';
 import Container from 'common/Container';
 import Header from 'components/Header';
@@ -9,10 +10,14 @@ import FirstProjects from './components/FirstProjects';
 const Portfolio = () => {
   return (
     <Box>
+      <Helmet>
+        <title> My Portfolio | Oluseye Onigbinde</title>
+      </Helmet>
       <AppBar
         position={'fixed'}
         sx={{
           backgroundColor: '#0D3446',
+          padding: '10px 0px',
         }}
         elevation={0}
       >

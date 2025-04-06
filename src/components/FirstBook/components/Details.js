@@ -3,7 +3,7 @@ import Box from '@mui/material/Box';
 import { Link, Typography } from '@mui/material';
 import cover from '../../../images/book_cover2.png';
 import selar from '../../../images/selar.jpg';
-import amazon from '../../../images/amazon.png';
+import amazon from '../../../images/kindle.jpg';
 
 const Details = () => {
   return (
@@ -78,9 +78,9 @@ const Details = () => {
             display={'flex'}
             justifyContent={'center'}
             alignItems={'center'}
-            width={{ xs: '100%', sm: '50%' }}
+            width={{ xs: '100%', sm: '70%' }}
           >
-            <Box width={{ xs: '100%', sm: '50%' }}>
+            <Box width={{ xs: '100%', sm: '45%' }}>
               <Link component="a" href="https://selar.co/45753k" target="blank">
                 <Box
                   width={{ xs: '100%', sm: '100%' }}
@@ -92,8 +92,12 @@ const Details = () => {
                 />
               </Link>
             </Box>
-            <Box width={{ xs: '100%', sm: '50%' }} marginLeft={'5%'}>
-              <Link component="a" href="https://amazon.com/" target="blank">
+            <Box width={{ xs: '100%', sm: '70%' }} marginLeft={'5%'}>
+              <Link
+                component="a"
+                href="https://www.amazon.com/dp/B0DRDLCD33"
+                target="blank"
+              >
                 <Box
                   width={{ xs: '100%', sm: '100%' }}
                   height={60}

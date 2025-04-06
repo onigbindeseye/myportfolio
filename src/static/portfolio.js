@@ -17,10 +17,18 @@ import tracka from 'images/tracka.png';
 import ysl from 'images/ysl.png';
 import centre from 'images/centre.png';
 import blue from 'images/blue_echo.png';
+import lawyers from 'images/laywers.jpg';
+import eco from 'images/eco-cyclers.jpg';
+import cleanup from 'images/cleanup.jpg';
+import earth from 'images/earth.jpg';
+import jurstice from 'images/jurstice.jpg';
+import nanya from 'images/nanya.jpg';
+import amplify from 'images/amplify.jpg';
+import monit from 'images/monit.jpg';
 
 export const portfolio = [
   {
-    id: 1,
+    id: 19,
     imgpath: table,
     title: 'Fiscal Transparency League Table',
     description:
@@ -34,7 +42,113 @@ export const portfolio = [
     web: 'https://fiscalleague.budgit.org/',
   },
   {
-    id: 2,
+    id: 27,
+    imgpath: monit,
+    title: 'MonITng',
+    description:
+      'MonITng is a government project and infrastructure tracking platform by the Forum for Promoting Civic Awareness and Good Leadership. MonITng helps citizens monitor government spending, infrastructure development, and social impact programs, fostering a more informed and engaged public.',
+    stack1: 'React',
+    stack2: 'Material-UI',
+    stack3: 'JavaScript',
+    stack4: 'Nodejs',
+    stack5: 'PostgreSQL',
+    github: 'https://github.com/onigbindeseye',
+    web: 'https://monitng.com/',
+  },
+  {
+    id: 26,
+    imgpath: amplify,
+    title: 'Amplify Youth Initiative',
+    description:
+      'A youth-led organization in Kaduna State, Nigeria, dedicated to justice reform, youth empowerment, and gender-based violence response. Their Gender-Based Violence First Responder Service provides legal, medical, and psychological support for survivors, with a toll-free emergency helpline (08000070070).',
+    stack1: 'React',
+    stack2: 'JavaScript',
+    stack3: 'Material-UI',
+    stack4: 'EmailJS',
+    github: 'https://github.com/onigbindeseye',
+    web: 'https://amplifyyouthinitiative.org/',
+  },
+  {
+    id: 25,
+    imgpath: nanya,
+    title: 'Nanya’s Care Initiative',
+    description:
+      'A gender equality and social justice organization based in Anambra State, Nigeria. Their platform includes a Case Reporting & Support Form for legal representation and mediation requests and a volunteer registration portal for individuals who want to assist with mentorship programs, community outreach, and advocacy.',
+    stack1: 'React',
+    stack2: 'JavaScript',
+    stack3: 'Material-UI',
+    stack4: 'EmailJS',
+    github: 'https://github.com/onigbindeseye',
+    web: 'https://nanyascareinitiative.com.ng/',
+  },
+  {
+    id: 24,
+    imgpath: jurstice,
+    title: 'Jurstice Tender',
+    description:
+      'Operating from Abeokuta, Ogun State, Nigeria, Jurstice Tender provides grassroots access to justice through a network of trained agents and legal aid services. The website features a case reporting form, allowing people to seek legal support for issues like gender-based violence, child abuse, and landlord-tenant disputes.',
+    stack1: 'React',
+    stack2: 'JavaScript',
+    stack3: 'Material-UI',
+    stack4: 'EmailJS',
+    github: 'https://github.com/onigbindeseye',
+    web: 'https://jursticetender.org/',
+  },
+  {
+    id: 23,
+    imgpath: earth,
+    title: 'Egalitarianism For Earth',
+    description:
+      'A climate change education platform targeting children aged 6–14 to raise awareness about environmental sustainability and justice. Based in Port Harcourt, Nigeria, their website includes animated videos and resources designed to empower young climate-conscious leaders.',
+    stack1: 'React',
+    stack2: 'JavaScript',
+    stack3: 'Material-UI',
+    stack4: 'EmailJS',
+    github: 'https://github.com/onigbindeseye',
+    web: 'https://egalitarianismforearth.com/',
+  },
+  {
+    id: 22,
+    imgpath: cleanup,
+    title: 'Cleanup Initiative',
+    description:
+      'Based in Kaduna State, Nigeria, this organization transforms plastic waste into interlocking tiles and building blocks for sustainable housing projects. Their website features a trash pickup scheduling form, a waste calculator, and a volunteer registration form for individuals who want to support their recycling efforts.',
+    stack1: 'React',
+    stack2: 'JavaScript',
+    stack3: 'Material-UI',
+    stack4: 'EmailJS',
+    github: 'https://github.com/onigbindeseye',
+    web: 'https://cleanupinitiative.com.ng/',
+  },
+  {
+    id: 21,
+    imgpath: eco,
+    title: 'Eco-Cyclers',
+    description:
+      'An environmental advocacy platform that started as a grassroots initiative in Enugu State, Nigeria, promoting waste recycling and public education on sustainability. Their website includes a Trash for Cash Calculator, enabling individuals and communities to determine the financial value of recyclable waste.',
+    stack1: 'React',
+    stack2: 'JavaScript',
+    stack3: 'Material-UI',
+    stack4: 'EmailJS',
+    github: 'https://github.com/onigbindeseye',
+    web: 'https://ecocyclers.com.ng/',
+  },
+  {
+    id: 20,
+    imgpath: lawyers,
+    title: 'Lawyers NowNow',
+    description:
+      'A JusticeTech solution developed for the Headfort Foundation for Justice, aimed at bridging the gap between marginalized individuals and legal aid services in Nigeria. While they already had a mobile app on Google Play and the App Store, I helped them develop a website that amplifies their legal services, making it easier for people to access legal assistance.',
+    stack1: 'React',
+    stack2: 'JavaScript',
+    stack3: 'Material-UI',
+    stack4: 'EmailJS',
+    github: 'https://github.com/onigbindeseye',
+    web: 'https://www.lawyersnownow.com/',
+  },
+
+  {
+    id: 18,
     imgpath: tracka,
     title: 'Active Citizens’ Festival',
     description:
@@ -46,7 +160,7 @@ export const portfolio = [
     web: 'https://festival.tracka.ng',
   },
   {
-    id: 3,
+    id: 17,
     imgpath: aquatic,
     title: 'Aquatic Hub Afrique ',
     description:
@@ -59,7 +173,7 @@ export const portfolio = [
     web: 'https://aquatichubafrique.com/',
   },
   {
-    id: 19,
+    id: 16,
     imgpath: blue,
     title: 'Blue-Echo Foundation',
     description:
@@ -71,7 +185,7 @@ export const portfolio = [
     web: 'https://bluechofoundation.org/',
   },
   {
-    id: 4,
+    id: 15,
     imgpath: ysl,
     title: 'YSL Realtors',
     description:
@@ -84,7 +198,7 @@ export const portfolio = [
     web: 'https://yslrealtors.org/',
   },
   {
-    id: 18,
+    id: 14,
     imgpath: centre,
     title: 'Oluseun Onigbinde Resource Centre',
     description:
@@ -97,7 +211,7 @@ export const portfolio = [
     web: 'https://onigbindecentre.org/',
   },
   {
-    id: 5,
+    id: 13,
     imgpath: foreFront,
     title: 'ForeFront Africa ',
     description:
@@ -109,7 +223,7 @@ export const portfolio = [
     web: 'https://forefront.earth',
   },
   {
-    id: 6,
+    id: 12,
     imgpath: grap,
     title: 'Grassroot Advocacy Project - GRAP',
     description:
@@ -123,7 +237,7 @@ export const portfolio = [
     web: 'https://grap.org.ng/',
   },
   {
-    id: 7,
+    id: 11,
     imgpath: budgit,
     title: 'Active Citizen Award',
     description:
@@ -135,7 +249,7 @@ export const portfolio = [
     web: 'https://awards.civichive.org/',
   },
   {
-    id: 8,
+    id: 10,
     imgpath: yvotenaija,
     title: 'YVoteNaija ',
     description:
@@ -163,7 +277,7 @@ export const portfolio = [
     web: 'http://linker.ng',
   },
   {
-    id: 10,
+    id: 8,
     imgpath: covid,
     title: 'Advancing Community Access to Equitable COVID-19 Response',
     description:
@@ -175,7 +289,7 @@ export const portfolio = [
     web: 'https://cacer.africa/',
   },
   {
-    id: 11,
+    id: 7,
     imgpath: ondesign,
     title: 'OnDesign Technologies',
     description:
@@ -188,7 +302,7 @@ export const portfolio = [
     web: 'https://ondesign.io/',
   },
   {
-    id: 12,
+    id: 6,
     imgpath: login,
     title: 'Local Open Governance Initiative in Nigeria - LOGIN ',
     description:
@@ -203,7 +317,7 @@ export const portfolio = [
   },
 
   {
-    id: 13,
+    id: 5,
     imgpath: vicky,
     title: 'Vicky Stores',
     description:
@@ -216,7 +330,7 @@ export const portfolio = [
     web: 'https://vicky-stores-onigbindeseye.vercel.app',
   },
   {
-    id: 14,
+    id: 4,
     imgpath: calculator,
     title: 'Calculator',
     description:
@@ -229,7 +343,7 @@ export const portfolio = [
     web: 'https://calculator-app-psi.vercel.app/',
   },
   {
-    id: 15,
+    id: 3,
     imgpath: policy,
     title: 'Policy Shapers',
     description:
@@ -244,7 +358,7 @@ export const portfolio = [
   },
 
   {
-    id: 16,
+    id: 2,
     imgpath: motivator,
     title: 'Motivator’s Crib Africa',
     description:
@@ -258,7 +372,7 @@ export const portfolio = [
     web: 'https://motivators-crib-africa.herokuapp.com/',
   },
   {
-    id: 17,
+    id: 1,
     imgpath: lovingsitter,
     title: 'LovingSitter',
     description:
